@@ -1,6 +1,9 @@
 package com.dkay229.msql.common;
 
+import lombok.Getter;
+
 public class MsqlException extends RuntimeException {
+    @Getter
     private final MsqlErrorCode errorCode;
     private final String message ;
     public MsqlException(MsqlErrorCode errorCode) {
@@ -10,10 +13,6 @@ public class MsqlException extends RuntimeException {
         super(message==null?errorCode.getMessage():errorCode.getMessage()+" : "+message);
         this.errorCode = errorCode;
         this.message =message==null?errorCode.getMessage():errorCode.getMessage()+" : "+message;
-    }
-
-    public MsqlErrorCode getErrorCode() {
-        return errorCode;
     }
 
     public String getReason() {

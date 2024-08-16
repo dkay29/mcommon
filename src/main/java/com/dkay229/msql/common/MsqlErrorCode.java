@@ -6,6 +6,8 @@ import lombok.Getter;
 public enum MsqlErrorCode {
     COULD_NOT_CONNECT(1001, "Could not connect to specified server"),
     MALFORMED_JDBC_URL(1001, "Bad JDBC URL"),
+    UNKNOWN_USER(1002, "Unknown user"),
+    BAD_LOGIN_ATTEMPT(1003, "Bad login attempt"),
 
     LAST_ERROR_CODE(9999,"LAST CODE");
 
