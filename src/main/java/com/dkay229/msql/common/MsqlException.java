@@ -2,7 +2,7 @@ package com.dkay229.msql.common;
 
 public class MsqlException extends RuntimeException {
     private final MsqlErrorCode errorCode;
-    private String message ;
+    private final String message ;
     public MsqlException(MsqlErrorCode errorCode) {
         this(errorCode,null);
     }
