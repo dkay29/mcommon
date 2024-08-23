@@ -10,7 +10,7 @@ public class Domain {
         DATE,
         INTEGER,
         BOOLEAN,
-        VECTOR};
+        VECTOR}
 
     public class ColumnMetadata {
 
