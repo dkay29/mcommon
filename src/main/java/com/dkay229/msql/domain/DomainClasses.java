@@ -2,7 +2,7 @@ package com.dkay229.msql.domain;
 
 import java.util.List;
 
-public class Domain {
+public class DomainClasses {
     static final long VERSION = 1;
     enum CoumnTypeEnum {
         STRING,
