@@ -3,6 +3,7 @@ package com.dkay229.msql.domain;
 import java.util.List;
 
 public class Domain {
+    static final long VERSION = 1;
     enum CoumnTypeEnum {
         STRING,
         FLOAT,
