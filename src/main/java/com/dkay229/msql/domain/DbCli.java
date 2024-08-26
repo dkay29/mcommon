@@ -1,7 +1,7 @@
 package com.dkay229.msql.domain;
 
 import java.util.List;
-
+/*
 public class DbCli {
     static final long VERSION = 1;
     enum CoumnTypeEnum {
@@ -24,13 +24,7 @@ public class DbCli {
             this.size = size;
         }
     }
-    public class RowMetadata {
-        List<ColumnMetadata> columnMetadata;
 
-        public RowMetadata(List<ColumnMetadata> columnMetadata) {
-            this.columnMetadata = columnMetadata;
-        }
-    }
     public class ExecuteQueryResponse {
         int statusCode;
         String errorMessage;
@@ -43,3 +37,4 @@ public class DbCli {
         }
     }
 }
+*/

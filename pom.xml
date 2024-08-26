@@ -30,6 +30,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version> <!-- Check for the latest version -->
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>com.dkay229</groupId>
             <artifactId>mproto</artifactId>
             <version>1.0-SNAPSHOT</version>
